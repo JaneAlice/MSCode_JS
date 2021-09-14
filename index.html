@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Meta tags Obrigatórias -->
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="index.css"/>
+    
+        <title>Ms Code</title>
+    </head>
+    <body>
+        <header class="container-fluid bg-dark">
+            <div class="row h-90 text-center">
+                <div class="col-3 col-lg-3 col-md-3 col-sm-3">
+                    <img height="50px" class="mt-4 imagem-menu" src="https://mscode.moveissimonetti.com.br/assets/img/logo.png"/>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 retirar-padding div-link-menu" style="margin-top: 32px;">
+                    <a href="#" class="link-menu mr-3" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a href="#" class="dropdown-item">Home page 01</a>
+                        <a href="#" class="dropdown-item">Home page 02</a>
+                        <a href="#" class="dropdown-item">Home page 03</a>
+                        <a href="#" class="dropdown-item">Home page 04</a>
+                        <a href="#" class="dropdown-item">Home page 05</a>
+                        <a href="#" class="dropdown-item">Home page 06</a>
+                    </div>
+                    <a href="#" class="link-menu mr-3">About Us</a>
+                    <a href="#" class="link-menu mr-3">Services</a>
+                    <a href="#" class="link-menu mr-3">Portfolio</a>
+                    <a href="#" class="link-menu mr-3">Other Page</a>
+                    <a href="#" class="link-menu mr-3">Blog</a>
+                    <a href="#" class="link-menu">Contact</a>
+                </div>
+                <div class="col-md-9 col-sm-9 col-9 text-right pt-4 pr-5">
+                    <button type="button" class="btn btn-dark icone-botao-menu" id="botao_menu_md"><i class="fas fa-bars"></i></button>
+                </div>
+                <div class="col-md-12 text-left pl-5 d-none" id="link_menu_md">
+                    <a href="#" class="link-menu">About Us</a> <br>
+                    <a href="#" class="link-menu">Services</a> <br>
+                    <a href="#" class="link-menu">Portfolio</a> <br>
+                    <a href="#" class="link-menu">Other Page</a> <br>
+                    <a href="#" class="link-menu">Blog</a> <br>
+                    <a href="#" class="link-menu">Contact</a>
+                </div>
+                <div class="col-3 col-lg-0 col-md-0 col-sm-0 pt-3">
+                    <button type="button" class="btn botao-menu">GET A QUOTE</button>
+                </div>
+            </div>
+        </header>
+
+        <section class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+            <div class="row">
+                <div class="col-12 bg-mscode" style="padding-top: 200px;">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner text-center">
+                            <div class="carousel-item active">
+                                <h1 class="titulo-carrossel"><b>
+                                    MS<span class="text-white">Code</span>
+                                </b></h1>
+                                <div class="row">
+                                    <div class="col-2 offset-5 divisao"></div>
+                                </div>
+                                <div class="justify-content-center d-flex mt-4 pt-2">
+                                    <input class="form-control w-25" type="email" id="email" placeholder="Informe o seu e-mail"/>
+                                </div>
+                                <small class="d-none text-danger" id="erro">Campo obrigatório<br></small>
+                                <small class="d-none text-success" id="enviado">E-mail enviado com sucesso <br></small>
+                                <button type="button" class="btn botao-carrossel mt-3" id="enviar">Enviar</button>
+                                <div class="spinner-border text-danger mt-4 d-none" id="carregando"></div>
+                            </div>
+                            <div class="carousel-item">
+                                <h1 class="titulo-carrossel"><b>
+                                    MS<span class="text-white">Code</span>
+                                </b></h1>
+                                <div class="row">
+                                    <div class="col-2 offset-5 divisao"></div>
+                                </div>
+                                <div class="justify-content-center d-flex mt-4 pt-2">
+                                    <input class="form-control w-25" type="email" id="email" placeholder="Informe o seu e-mail"/>
+                                </div>
+                                <small class="d-none text-danger" id="erro">Campo obrigatório</small>
+                                <small class="d-none text-success" id="enviado">E-mail enviado com sucesso <br></small>
+                                <button type="button" class="btn botao-carrossel mt-3" id="enviar">Enviar <br></button>
+                            </div>
+                            <div class="carousel-item">
+                                <h1 class="titulo-carrossel"><b>
+                                    MS<span class="text-white">Code</span>
+                                </b></h1>
+                                <div class="row">
+                                    <div class="col-2 offset-5 divisao"></div>
+                                </div>
+                                <div class="justify-content-center d-flex mt-4 pt-2">
+                                    <input class="form-control w-25" type="email" id="email" placeholder="Informe o seu e-mail"/>
+                                </div>
+                                <small class="d-none text-danger" id="erro">Campo obrigatório</small>
+                                <small class="d-none text-success" id="enviado">E-mail enviado com sucesso <br></small>
+                                <button type="button" class="btn botao-carrossel mt-3" id="enviar">Enviar <br></button>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev seta-carrossel" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next seta-carrossel" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Próximo</span>
+                        </a>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- JavaScript (Opcional) -->
+        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,138 @@
+.w-25 {
+    width: 25px;
+}
+
+.h-90 {
+    height: 90px;
+}
+
+.link-menu {
+    text-decoration: none !important;
+    color: white !important;
+    font-size: 1.0em;
+}
+
+.link-menu:hover {
+    color: #b30006 !important;
+}
+
+.botao-menu {
+    width: 197px;
+    height: 56px;
+    background-color: transparent !important;
+    border: 2px solid #b30006;
+    border-radius: 50px;
+    font-size: 15px;
+    color: white;
+}
+
+.botao-menu:hover {
+    background-color: #b30006 !important;
+}
+
+.bg-mscode {
+    background-image: url(https://mscode.moveissimonetti.com.br/assets/img/slider/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+}
+
+.titulo-carrossel {
+    color: #b30006;
+    font-size: 4em;
+    margin-bottom: 0px !important;
+}
+
+.botao-carrossel {
+    width: 90px;
+    height: 40px;
+    background-color: transparent !important;
+    border: 2px solid #b30006;
+    border-radius: 50px;
+    font-size: 15px;
+    color: #b30006;
+}
+
+.botao-carrossel:hover {
+    background-color: #b30006 !important;
+    color: white !important;
+}
+
+.divisao {
+    width: 80px !important;
+    border: 1px solid #b30006;
+    border-radius: 20px;
+}
+
+.icone-botao-menu{
+    font-size: 23px;
+}
+
+@media (max-width: 320px) {
+    
+}
+
+@media (max-width: 576px) and (min-width:  321px) {
+    .botao-menu {
+        display: none !important;
+    }
+
+    .div-link-menu{
+        display: none !important;
+    }
+    .icone-botao-menu {
+        font-size: 20px;
+    }
+    .pr-5{
+        padding-right: unset !important
+    }
+    
+}
+
+@media (max-width: 768px) and (min-width: 577px) {
+    .botao-menu {
+        display: none !important;
+    }
+
+    .div-link-menu{
+        display: none !important;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+    .botao-menu {
+        display: none !important;
+    }
+    .imagem-menu {
+        height: 50px;
+    }
+    .div-link-menu{
+        display: none !important;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 993px) {
+    .link-menu {
+        font-size: 15px;
+        padding-right: 18px;
+    }
+    .botao-menu {
+        display: none !important;
+    }
+    .retirar-padding {
+        padding-left: 0px;
+    }
+    .imagem-menu {
+        height: 40px;
+    }
+    .seta-carrossel {
+        display: none !important;
+    }
+    .botao-bars-menu{
+        display: none !important;
+    }
+}
+
+@media (min-width: 1201px) {
+    
+}
